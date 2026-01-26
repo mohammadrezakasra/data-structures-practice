@@ -1,36 +1,14 @@
-sales_data = [ # منطقه شمال
-    [ # فروشگاه A
-        [  # محصولات: [الکترونیک، پوشاک، مواد غذایی]
-            [100, 200, 300],
-            [150, 250, 350]   # فروش سه ماهه
-        ],
-        [  # فروشگاه B  
-            [80, 180, 280],
-            [120, 220, 320]
-        ]
-    ],
-    [  # منطقه جنوب
-        [
-            [90, 190, 290],
-            [130, 230, 330]
-        ],
-        [
-            [70, 170, 270],
-            [110, 210, 310]
-        ]
-    ]
-]
+from Ordered_n_tuple import my_filter
 
-answer = [shop[0][0]
-          for regin in sales_data
-          for shop in regin]
+n = int(input())
 
+my_filter = [0] * n
+my_list = [[1]*n] * (n**n)
 
-electronics = [shop[0][0]  # اولین عدد از هر فروشگاه
-              for region in sales_data
-              for shop in region]
+for i in range(n*n):
+    my_list[i][0] = my_list[i][0] + my_filter[0]
+    if my_filter[0] < 2:
+        my_filter[0]+=1
 
-print(electronics)  # [100, 150, 80, 120, 90, 130, 70, 110]
-
-
-print(answer)
+print(my_list)
+print(filter)

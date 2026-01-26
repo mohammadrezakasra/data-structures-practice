@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ba2c94-8816-4d32-aa4b-25e3998c26de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/List_Comprehension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ordered_n_tuple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gray_Code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gray_Code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test.py" afterDir="false" />
@@ -30,29 +30,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Gray_Code.executor": "Run",
-    "Python.Horner's algorithm.executor": "Run",
-    "Python.Hsnoi_Tower.executor": "Run",
-    "Python.Insertion sort.executor": "Run",
-    "Python.Largest_subarray.executor": "Run",
-    "Python.List_Comprehension.executor": "Run",
-    "Python.Selection_sort..executor": "Run",
-    "Python.gcd.executor": "Run",
-    "Python.my_test (1).executor": "Run",
-    "Python.my_test.executor": "Run",
-    "Python.sum.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Gray_Code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Horner's algorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Hsnoi_Tower.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Insertion sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Largest_subarray.executor&quot;: &quot;Run&quot;,
+    &quot;Python.List_Comprehension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ordered_n_tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Selection_sort..executor&quot;: &quot;Run&quot;,
+    &quot;Python.gcd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sum.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.Gray_Code">
+}</component>
+  <component name="RunManager" selected="Python.Ordered_n_tuple">
     <configuration name="Gray_Code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
@@ -125,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gcd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ordered_n_tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +141,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gcd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ordered_n_tuple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ordered_n_tuple" />
+        <item itemvalue="Python.my_test (1)" />
         <item itemvalue="Python.Gray_Code" />
         <item itemvalue="Python.List_Comprehension" />
-        <item itemvalue="Python.my_test (1)" />
         <item itemvalue="Python.Hsnoi_Tower" />
-        <item itemvalue="Python.gcd" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +202,8 @@
       <workItem from="1768994169662" duration="38624000" />
       <workItem from="1769187001527" duration="595000" />
       <workItem from="1769226616010" duration="5276000" />
-      <workItem from="1769311214282" duration="14271000" />
+      <workItem from="1769311214282" duration="18217000" />
+      <workItem from="1769427348705" duration="15385000" />
     </task>
     <servers />
   </component>
@@ -211,8 +213,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DS_git$Selection_sort_.coverage" NAME="Selection_sort. Coverage Results" MODIFIED="1768994838961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$List_Comprehension.coverage" NAME="List_Comprehension Coverage Results" MODIFIED="1769322315680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$Ordered_n_tuple.coverage" NAME="Ordered_n_tuple Coverage Results" MODIFIED="1769453614203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Horner_s_algorithm.coverage" NAME="Horner's algorithm Coverage Results" MODIFIED="1769021934849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DS_git$my_test__1_.coverage" NAME="my_test (1) Coverage Results" MODIFIED="1769317019764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$my_test__1_.coverage" NAME="my_test (1) Coverage Results" MODIFIED="1769436402445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Insertion_sort.coverage" NAME="Insertion sort Coverage Results" MODIFIED="1768999192419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$sum.coverage" NAME="my_test Coverage Results" MODIFIED="1769057189791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$gcd.coverage" NAME="gcd Coverage Results" MODIFIED="1769080674271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

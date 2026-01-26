@@ -5,7 +5,7 @@ def gray_code(n):
         return []
 
     g1 = gray_code(n - 1)
-    g2 = list(reversed(gray_code(n - 1)))
+    g2 = list(reversed(g1))
 
 
     if not g1:

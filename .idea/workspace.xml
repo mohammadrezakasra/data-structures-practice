@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ba2c94-8816-4d32-aa4b-25e3998c26de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ordered_n_tuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitmask_subset_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gas_station.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/life_of_employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z_temp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gray_Code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gray_Code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,31 +33,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Gray_Code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Horner's algorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hsnoi_Tower.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Insertion sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Largest_subarray.executor&quot;: &quot;Run&quot;,
-    &quot;Python.List_Comprehension.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ordered_n_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Selection_sort..executor&quot;: &quot;Run&quot;,
-    &quot;Python.gcd.executor&quot;: &quot;Run&quot;,
-    &quot;Python.my_test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.my_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sum.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Gray_Code.executor": "Run",
+    "Python.Horner's algorithm.executor": "Run",
+    "Python.Hsnoi_Tower.executor": "Run",
+    "Python.Insertion sort.executor": "Run",
+    "Python.Largest_subarray.executor": "Run",
+    "Python.List_Comprehension.executor": "Run",
+    "Python.Ordered_n_tuple.executor": "Run",
+    "Python.Selection_sort..executor": "Run",
+    "Python.bitmask_subset_generation.executor": "Run",
+    "Python.buy_book.executor": "Run",
+    "Python.gas_station.executor": "Run",
+    "Python.gcd.executor": "Run",
+    "Python.life_of_employee.executor": "Run",
+    "Python.my_test (1).executor": "Run",
+    "Python.my_test.executor": "Run",
+    "Python.sum.executor": "Run",
+    "Python.z_temp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.Ordered_n_tuple">
-    <configuration name="Gray_Code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.z_temp">
+    <configuration name="bitmask_subset_generation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +77,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gray_Code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bitmask_subset_generation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Hsnoi_Tower" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="buy_book" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +101,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hsnoi_Tower.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buy_book.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="List_Comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gas_station" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,7 +125,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/List_Comprehension.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gas_station.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ordered_n_tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="life_of_employee" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,7 +149,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ordered_n_tuple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/life_of_employee.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="z_temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +173,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Ordered_n_tuple" />
-        <item itemvalue="Python.my_test (1)" />
-        <item itemvalue="Python.Gray_Code" />
-        <item itemvalue="Python.List_Comprehension" />
-        <item itemvalue="Python.Hsnoi_Tower" />
+        <item itemvalue="Python.z_temp" />
+        <item itemvalue="Python.gas_station" />
+        <item itemvalue="Python.life_of_employee" />
+        <item itemvalue="Python.buy_book" />
+        <item itemvalue="Python.bitmask_subset_generation" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +211,9 @@
       <workItem from="1769187001527" duration="595000" />
       <workItem from="1769226616010" duration="5276000" />
       <workItem from="1769311214282" duration="18217000" />
-      <workItem from="1769427348705" duration="15385000" />
+      <workItem from="1769427348705" duration="32112000" />
+      <workItem from="1769755197010" duration="937000" />
+      <workItem from="1775293354760" duration="12415000" />
     </task>
     <servers />
   </component>
@@ -211,16 +221,21 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DS_git$Selection_sort_.coverage" NAME="Selection_sort. Coverage Results" MODIFIED="1768994838961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DS_git$List_Comprehension.coverage" NAME="List_Comprehension Coverage Results" MODIFIED="1769322315680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DS_git$Ordered_n_tuple.coverage" NAME="Ordered_n_tuple Coverage Results" MODIFIED="1769453614203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$gas_station.coverage" NAME="gas_station Coverage Results" MODIFIED="1775293918617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$Ordered_n_tuple.coverage" NAME="Ordered_n_tuple Coverage Results" MODIFIED="1769455050657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Horner_s_algorithm.coverage" NAME="Horner's algorithm Coverage Results" MODIFIED="1769021934849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DS_git$my_test__1_.coverage" NAME="my_test (1) Coverage Results" MODIFIED="1769436402445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DS_git$Insertion_sort.coverage" NAME="Insertion sort Coverage Results" MODIFIED="1768999192419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$sum.coverage" NAME="my_test Coverage Results" MODIFIED="1769057189791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$gcd.coverage" NAME="gcd Coverage Results" MODIFIED="1769080674271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Gray_Code.coverage" NAME="Gray_Code Coverage Results" MODIFIED="1769326955050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Largest_subarray.coverage" NAME="Largest_subarray Coverage Results" MODIFIED="1769017335524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Hsnoi_Tower.coverage" NAME="Hsnoi_Tower Coverage Results" MODIFIED="1769085616774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$buy_book.coverage" NAME="buy_book Coverage Results" MODIFIED="1769492504362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$Selection_sort_.coverage" NAME="Selection_sort. Coverage Results" MODIFIED="1768994838961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$List_Comprehension.coverage" NAME="List_Comprehension Coverage Results" MODIFIED="1769322315680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$life_of_employee.coverage" NAME="life_of_employee Coverage Results" MODIFIED="1769494319127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$z_temp.coverage" NAME="z_temp Coverage Results" MODIFIED="1775376238543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$my_test__1_.coverage" NAME="my_test (1) Coverage Results" MODIFIED="1769482466696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$Insertion_sort.coverage" NAME="Insertion sort Coverage Results" MODIFIED="1768999192419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$bitmask_subset_generation.coverage" NAME="bitmask_subset_generation Coverage Results" MODIFIED="1769491574186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

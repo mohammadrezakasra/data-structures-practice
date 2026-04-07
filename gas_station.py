@@ -1,3 +1,4 @@
+
 n , k , l = map(int , input().split())
 
 gas_station_distances = list(map(int , input().split()))

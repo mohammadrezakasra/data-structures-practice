@@ -1,4 +1,8 @@
-import random
+n = int(input())
+def func(n):
+    if n == 1 or n ==0:
+        return 1
+    else:
+        return func(n-1) * n
 
-for _ in range(10):
-    print(random.randint(1, 10))
+print(func(n))

@@ -1,8 +1,6 @@
 n = int(input())
-
-
+a = [1, 1, 2, 3]
 def bricklay(x):
-    a = [1,1,2,3]
     if x== 1:
         return a[0]
     elif x == 2:
@@ -14,11 +12,17 @@ def bricklay(x):
     else:
         for i in range(4,x):
             a.append((a[i-1]+a[i-2]+a[i-3]-a[i-4])%(10 **9 + 7))
-    return a[-1]
+    return a[x-1]
+
 
 ans = []
+
 for i in range(n):
-    ans.append(bricklay(int(input())))
+    inp = int(input())
+    if len(a) < inp:
+        ans.append(bricklay(inp))
+    else:
+        ans.append(bricklay(inp))
 
 for i in range(n):
     print(ans[i])

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ba2c94-8816-4d32-aa4b-25e3998c26de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Combination_speedtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Combination_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Combination_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Combination_v3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricklaying_v3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/largest_submatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LCS_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rod_Cutting_Problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_or_none_or_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximum_path_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximum_path_table_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routing_challenge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricklaying_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bricklaying_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/maximum_path_table.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -34,56 +37,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Combination_speedtest.executor": "Run",
-    "Python.Combination_v1.executor": "Run",
-    "Python.Combination_v2.executor": "Run",
-    "Python.Combination_v3.executor": "Run",
-    "Python.Gray_Code.executor": "Run",
-    "Python.Horner's algorithm.executor": "Run",
-    "Python.Hsnoi_Tower.executor": "Run",
-    "Python.Insertion sort.executor": "Run",
-    "Python.Largest_subarray.executor": "Run",
-    "Python.List_Comprehension.executor": "Run",
-    "Python.Ordered_n_tuple.executor": "Run",
-    "Python.Rodzyanko_energy.executor": "Run",
-    "Python.Selection_sort..executor": "Run",
-    "Python.bitmask_subset_generation.executor": "Run",
-    "Python.bricklaying.executor": "Run",
-    "Python.bricklaying_v2.executor": "Run",
-    "Python.bricklaying_v3.executor": "Run",
-    "Python.buy_book.executor": "Run",
-    "Python.chocolate.executor": "Run",
-    "Python.classy_startup.executor": "Run",
-    "Python.domino.executor": "Run",
-    "Python.feractal.executor": "Run",
-    "Python.gas_station.executor": "Run",
-    "Python.gcd.executor": "Run",
-    "Python.greedy_juice_shop.executor": "Run",
-    "Python.k_cut.executor": "Run",
-    "Python.largest_submatrix.executor": "Run",
-    "Python.life_of_employee.executor": "Run",
-    "Python.maximum_subarray.executor": "Run",
-    "Python.my_test (1).executor": "Run",
-    "Python.my_test.executor": "Run",
-    "Python.range_tepm.executor": "Run",
-    "Python.spying.executor": "Run",
-    "Python.spying_quera_ans.executor": "Run",
-    "Python.sum.executor": "Run",
-    "Python.z_temp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Combination_speedtest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Combination_v1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Combination_v2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Combination_v3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gray_Code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Horner's algorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Hsnoi_Tower.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Insertion sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LCS_word.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Largest_subarray.executor&quot;: &quot;Run&quot;,
+    &quot;Python.List_Comprehension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ordered_n_tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Rod_Cutting_Problem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Rodzyanko_energy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Selection_sort..executor&quot;: &quot;Run&quot;,
+    &quot;Python.all_or_none_or_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bitmask_subset_generation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bricklaying.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bricklaying_v2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bricklaying_v3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buy_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chocolate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classy_startup.executor&quot;: &quot;Run&quot;,
+    &quot;Python.domino.executor&quot;: &quot;Run&quot;,
+    &quot;Python.feractal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gas_station.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gcd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.greedy_juice_shop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.k_cut.executor&quot;: &quot;Run&quot;,
+    &quot;Python.largest_submatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.life_of_employee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matrix_multiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maximum_path_table.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maximum_path_table_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maximum_subarray.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.range_tepm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.routing_challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Python.spying.executor&quot;: &quot;Run&quot;,
+    &quot;Python.spying_quera_ans.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z_temp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.Combination_speedtest">
-    <configuration name="Combination_speedtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python.matrix_multiplication">
+    <configuration name="LCS_word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +108,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Combination_speedtest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LCS_word.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Combination_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Rod_Cutting_Problem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +132,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Combination_v1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rod_Cutting_Problem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Combination_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="all_or_none_or_one" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +156,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Combination_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all_or_none_or_one.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Combination_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="matrix_multiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,7 +180,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Combination_v3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matrix_multiplication.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="largest_submatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="routing_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS_git" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,7 +204,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/largest_submatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/routing_challenge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Combination_speedtest" />
-        <item itemvalue="Python.Combination_v3" />
-        <item itemvalue="Python.Combination_v2" />
-        <item itemvalue="Python.Combination_v1" />
-        <item itemvalue="Python.largest_submatrix" />
+        <item itemvalue="Python.matrix_multiplication" />
+        <item itemvalue="Python.LCS_word" />
+        <item itemvalue="Python.Rod_Cutting_Problem" />
+        <item itemvalue="Python.all_or_none_or_one" />
+        <item itemvalue="Python.routing_challenge" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +248,14 @@
       <workItem from="1775569385289" duration="22573000" />
       <workItem from="1775760764022" duration="4203000" />
       <workItem from="1775841557221" duration="3158000" />
-      <workItem from="1775907301583" duration="5457000" />
+      <workItem from="1775907301583" duration="18560000" />
+      <workItem from="1777362165051" duration="1611000" />
+      <workItem from="1777380797119" duration="7806000" />
+      <workItem from="1777389699461" duration="35844000" />
+      <workItem from="1777631523243" duration="7631000" />
+      <workItem from="1777709239108" duration="20142000" />
+      <workItem from="1778137666144" duration="9049000" />
+      <workItem from="1778419580987" duration="1099000" />
     </task>
     <servers />
   </component>
@@ -246,13 +263,17 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DS_git$routing_challenge.coverage" NAME="routing_challenge Coverage Results" MODIFIED="1777457938770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Ordered_n_tuple.coverage" NAME="Ordered_n_tuple Coverage Results" MODIFIED="1769455050657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$all_or_none_or_one.coverage" NAME="all_or_none_or_one Coverage Results" MODIFIED="1777635806989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$matrix_multiplication.coverage" NAME="matrix_multiplication Coverage Results" MODIFIED="1778149977625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$bricklaying_v2.coverage" NAME="bricklaying_v2 Coverage Results" MODIFIED="1775843022160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$classy_startup.coverage" NAME="classy_startup Coverage Results" MODIFIED="1775636674638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$sum.coverage" NAME="my_test Coverage Results" MODIFIED="1769057189791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Gray_Code.coverage" NAME="Gray_Code Coverage Results" MODIFIED="1769326955050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Combination_v1.coverage" NAME="Combination_v1 Coverage Results" MODIFIED="1775928957011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$feractal.coverage" NAME="feractal Coverage Results" MODIFIED="1775761524684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$maximum_path_table_2.coverage" NAME="maximum_path_table_2 Coverage Results" MODIFIED="1777448621618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$domino.coverage" NAME="domino Coverage Results" MODIFIED="1775761604994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Selection_sort_.coverage" NAME="Selection_sort. Coverage Results" MODIFIED="1768994838961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$z_temp.coverage" NAME="z_temp Coverage Results" MODIFIED="1775639196139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -260,7 +281,8 @@
     <SUITE FILE_PATH="coverage/DS_git$Insertion_sort.coverage" NAME="Insertion sort Coverage Results" MODIFIED="1768999192419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$chocolate.coverage" NAME="chocolate Coverage Results" MODIFIED="1775487214187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$greedy_juice_shop.coverage" NAME="greedy_juice_shop Coverage Results" MODIFIED="1775569574112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DS_git$Combination_v3.coverage" NAME="Combination_v3 Coverage Results" MODIFIED="1775930288078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$Rod_Cutting_Problem.coverage" NAME="Rod_Cutting_Problem Coverage Results" MODIFIED="1777709887098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$Combination_v3.coverage" NAME="Combination_v3 Coverage Results" MODIFIED="1775930324367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$largest_submatrix.coverage" NAME="largest_submatrix Coverage Results" MODIFIED="1775924519332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$Combination_v2.coverage" NAME="Combination_v2 Coverage Results" MODIFIED="1775929943884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$spying.coverage" NAME="spying Coverage Results" MODIFIED="1775573661613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -273,13 +295,15 @@
     <SUITE FILE_PATH="coverage/DS_git$Hsnoi_Tower.coverage" NAME="Hsnoi_Tower Coverage Results" MODIFIED="1769085616774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$buy_book.coverage" NAME="buy_book Coverage Results" MODIFIED="1769492504362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$bricklaying.coverage" NAME="bricklaying Coverage Results" MODIFIED="1775841636781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$maximum_path_table.coverage" NAME="maximum_path_table Coverage Results" MODIFIED="1777384112388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$List_Comprehension.coverage" NAME="List_Comprehension Coverage Results" MODIFIED="1769322315680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$life_of_employee.coverage" NAME="life_of_employee Coverage Results" MODIFIED="1769494319127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$maximum_subarray.coverage" NAME="maximum_subarray Coverage Results" MODIFIED="1775822689202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$LCS_word.coverage" NAME="LCS_word Coverage Results" MODIFIED="1777735388707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$k_cut.coverage" NAME="k_cut Coverage Results" MODIFIED="1775381131161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$my_test__1_.coverage" NAME="my_test (1) Coverage Results" MODIFIED="1769482466696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$spying_quera_ans.coverage" NAME="spying_quera_ans Coverage Results" MODIFIED="1775585240148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DS_git$Combination_speedtest.coverage" NAME="Combination_speedtest Coverage Results" MODIFIED="1775930261207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DS_git$Combination_speedtest.coverage" NAME="Combination_speedtest Coverage Results" MODIFIED="1775930501311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DS_git$bitmask_subset_generation.coverage" NAME="bitmask_subset_generation Coverage Results" MODIFIED="1769491574186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

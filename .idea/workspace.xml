@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ba2c94-8816-4d32-aa4b-25e3998c26de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LCS_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rod_Cutting_Problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all_or_none_or_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matrix_multiplication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maximum_path_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maximum_path_table_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routing_challenge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +248,7 @@
       <workItem from="1777631523243" duration="7631000" />
       <workItem from="1777709239108" duration="20142000" />
       <workItem from="1778137666144" duration="9049000" />
-      <workItem from="1778419580987" duration="1099000" />
+      <workItem from="1778419580987" duration="2215000" />
     </task>
     <servers />
   </component>
